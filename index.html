@@ -5,40 +5,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio personal de Misa. Proyectos de programación, diseño web, diseño gráfico e ilustración.">
+
     <title>Misa | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
         <h1>Portfolio</h1>
         <h2>¡Bienvenido a mi portfolio!</h2>
         <h3>Aún se encuentra en proceso de creación</h3>
 
-        <nav>
+        <nav aria-label="Navegación principal">
             <a href="#programming">Programming</a>
-            <a>·</a>
+            <span aria-hidden="true">·</span>
+
             <a href="#web-design">Web Design</a>
-            <a>·</a>
-            <a href="#Diseñográfico">Diseño gráfico</a>
-            <a>·</a>
+            <span aria-hidden="true">·</span>
+
+            <a href="#diseno-grafico">Diseño gráfico</a>
+            <span aria-hidden="true">·</span>
+
             <a href="#art">Art</a>
-            <a>·</a>
-            <a href="#Sobre-mi">Sobre mi ♡</a>
-            <a>·</a>
+            <span aria-hidden="true">·</span>
+
+            <a href="#sobre-mi">Sobre mí ♡</a>
+            <span aria-hidden="true">·</span>
+
             <a href="#links">Links</a>
         </nav>
     </header>
 
     <main>
+
+        <!-- PROGRAMMING -->
+
         <section id="programming">
             <h2>Programming</h2>
-            <p>Software, scripts y proyectos personales.</p>
+
+            <p>
+                Software, scripts y proyectos personales.
+            </p>
 
             <div class="project-grid">
 
                 <article class="project-card">
                     <h3>Telegram sin Telegram</h3>
+
                     <p>
                         Una interfaz web para enviar mensajes
                         sin tener que abrir la aplicación de Telegram.
@@ -47,127 +64,200 @@
                     <a
                         href="https://github.com/MisakiDostoyevskaya/Telegram-sin-Telegram"
                         target="_blank"
-                        rel="noopener noreferrer">
-                        Ver en GitHub
+                        rel="noopener noreferrer"
+                        title="Ver el repositorio en GitHub">
+                        Ver en GitHub ♡
                     </a>
                 </article>
-                     <article class="project-card">
+
+                <article class="project-card">
                     <h3>¡Esta página!</h3>
+
                     <p>
-                        Código de esta misma página :D
+                        Código fuente de este mismo portfolio.
                     </p>
 
                     <a
                         href="https://github.com/MisakiDostoyevskaya/misakidostoy.github.io"
                         target="_blank"
-                        rel="noopener noreferrer">
-                        Ver en GitHub
+                        rel="noopener noreferrer"
+                        title="Ver el código de mi portfolio">
+                        Ver en GitHub ♡
                     </a>
+                </article>
 
             </div>
         </section>
 
+        <!-- WEB DESIGN -->
+
         <section id="web-design">
-                <h2>Web Design</h2>
-                <p>Diseño y desarrollo de sitios web.</p>
+            <h2>Web Design</h2>
+
+            <p>
+                Diseño y desarrollo de sitios web.
+            </p>
+
+            <!-- Próximamente: proyectos de diseño web -->
+
         </section>
 
-<section id="#Diseñográfico">
-        <h2>Diseño gráfico</h2>
+        <!-- DISEÑO GRÁFICO -->
 
-        <p>
-            Diseño de logos, páginas, redes sociales
-        </p>
-</section>
-         <section id="art">
-        <h2>Art & Commissions</h2>
+        <section id="diseno-grafico">
+            <h2>Diseño gráfico</h2>
 
-        <p>
-            Ilustraciones, dibujos y comisiones.
-            Contactame para consultar disponibilidad.
-        </p>
+            <p>
+                Diseño de logos, páginas y redes sociales.
+            </p>
 
-    </section>
+            <div class="art-gallery">
 
-        <div class="art-gallery">
+                <article class="art-card">
+                    <img
+                        src="assets/images/desing-01.jpg"
+                        alt="Diseño gráfico número uno"
+                        loading="lazy">
 
-            <article class="art-card">
-                <img
-                    src="assets/images/drawing-01.jpg"
-                    alt="Ilustración número uno">
-                <h3>Illustration 01</h3>
-            </article>
+                    <h3>Design 01</h3>
+                </article>
 
-            <article class="art-card">
-                <img
-                    src="assets/images/drawing-02.jpg"
-                    alt="Ilustración número dos">
-                <h3>Illustration 02</h3>
-            </article>
+                <article class="art-card">
+                    <img
+                        src="assets/images/desing-02.jpg"
+                        alt="Diseño gráfico número dos"
+                        loading="lazy">
 
-            <article class="art-card">
-                <img
-                    src="assets/images/drawing-03.jpg"
-                    alt="Ilustración número tres">
-                <h3>Illustration 03</h3>
-            </article>
+                    <h3>Design 02</h3>
+                </article>
 
-        </div>
-    </section>
+                <article class="art-card">
+                    <img
+                        src="assets/images/desing-03.jpg"
+                        alt="Diseño gráfico número tres"
+                        loading="lazy">
 
-<section id="Sobre-mi">
-    <h2>¡Sobre mi! ♡</h2>
+                    <h3>Design 03</h3>
+                </article>
 
-    <p>
-        Sobre miii!!! >v<
-    </p>
-</section>
+            </div>
+        </section>
 
-<section id="links">
-    <h2>Find me online</h2>
+        <!-- ART & COMMISSIONS -->
 
-    <p>
-        Podés encontrarme en estas plataformas
-        y ver mis proyectos.
-    </p>
+        <section id="art">
+            <h2>Art &amp; Commissions</h2>
 
-    <div class="social-links">
+            <p>
+                Ilustraciones, dibujos y comisiones.
+                Contactame para consultar disponibilidad.
+            </p>
 
-        <a
-            href="https://github.com/MisakiDostoyevskaya"
-            target="_blank"
-            rel="noopener noreferrer">
-            GitHub
-        </a>
+            <a
+                class="commission-button"
+                href="https://www.instagram.com/misakidostoyevskaya/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Consultar por Instagram">
+                Consultar por comisiones ♡
+            </a>
 
-        <a
-            href="https://www.linkedin.com/in/iara-coronel00/"
-            target="_blank"
-            rel="noopener noreferrer">
-            LinkedIn
-        </a>
-        <a
-            href="https://www.youtube.com/@misakidostoyevskaya"
-            target="_blank"
-            rel="noopener noreferrer">
-            YouTube
-        </a>
-        <a
-            href="https://www.instagram.com/misakidostoyevskaya/"
-            target="_blank"
-            rel="noopener noreferrer">
-            Instagram
-        </a>
-    </div>
-</section>
+            <div class="art-gallery">
 
+                <article class="art-card">
+                    <img
+                        src="assets/images/drawing-01.jpg"
+                        alt="Ilustración número uno"
+                        loading="lazy">
+
+                    <h3>Illustration 01</h3>
+                </article>
+
+                <article class="art-card">
+                    <img
+                        src="assets/images/drawing-02.jpg"
+                        alt="Ilustración número dos"
+                        loading="lazy">
+
+                    <h3>Illustration 02</h3>
+                </article>
+
+                <article class="art-card">
+                    <img
+                        src="assets/images/drawing-03.jpg"
+                        alt="Ilustración número tres"
+                        loading="lazy">
+
+                    <h3>Illustration 03</h3>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SOBRE MÍ -->
+
+        <section id="sobre-mi">
+            <h2>¡Sobre mí! ♡</h2>
+
+            <p>
+                ¡Sobre miii! >v<
+            </p>
+        </section>
+
+        <!-- REDES Y ENLACES -->
+
+        <section id="links">
+            <h2>Find me online</h2>
+
+            <p>
+                Podés encontrarme en estas plataformas
+                y ver mis proyectos.
+            </p>
+
+            <div class="social-links">
+
+                <a
+                    href="https://github.com/MisakiDostoyevskaya"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Mi perfil de GitHub">
+                    GitHub ♡
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/iara-coronel00/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Mi perfil de LinkedIn">
+                    LinkedIn ♡
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@misakidostoyevskaya"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Mi canal de YouTube">
+                    YouTube ♡
+                </a>
+
+                <a
+                    href="https://www.instagram.com/misakidostoyevskaya/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Mi perfil de Instagram">
+                    Instagram ♡
+                </a>
+
+            </div>
+        </section>
 
     </main>
 
     <footer>
-        <p>¡Gracias por tomarte el tiempo de ver mis trabajos!</p>
+        <p>
+            ¡Gracias por tomarte el tiempo de ver mis trabajos! ♡
+        </p>
     </footer>
 
 </body>
-
 </html>
