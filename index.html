@@ -1,263 +1,226 @@
 
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="Portfolio personal de Misa. Proyectos de programación, diseño web, diseño gráfico e ilustración.">
-
     <title>Misa | Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
         <h1>Portfolio</h1>
         <h2>¡Bienvenido a mi portfolio!</h2>
         <h3>Aún se encuentra en proceso de creación</h3>
-
         <nav aria-label="Navegación principal">
             <a href="#programming">Programming</a>
             <span aria-hidden="true">·</span>
-
             <a href="#web-design">Web Design</a>
             <span aria-hidden="true">·</span>
-
-            <a href="#diseno-grafico">Diseño gráfico</a>
+            <a href="#graphic-design">Graphic Design</a>
             <span aria-hidden="true">·</span>
-
             <a href="#art">Art</a>
             <span aria-hidden="true">·</span>
-
             <a href="#sobre-mi">Sobre mí ♡</a>
             <span aria-hidden="true">·</span>
-
             <a href="#links">Links</a>
         </nav>
     </header>
 
     <main>
-
-        <!-- PROGRAMMING -->
-
         <section id="programming">
             <h2>Programming</h2>
-
-            <p>
-                Software, scripts y proyectos personales.
-            </p>
-
+            <p>Software, scripts y proyectos personales.</p>
             <div class="project-grid">
-
                 <article class="project-card">
                     <h3>Telegram sin Telegram</h3>
-
-                    <p>
-                        Una interfaz web para enviar mensajes
-                        sin tener que abrir la aplicación de Telegram.
-                    </p>
-
-                    <a
-                        href="https://github.com/MisakiDostoyevskaya/Telegram-sin-Telegram"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title="Ver el repositorio en GitHub">
-                        Ver en GitHub ♡
-                    </a>
+                    <p>Una interfaz web para enviar mensajes sin tener que abrir la aplicación de Telegram.</p>
+                    <a href="https://github.com/MisakiDostoyevskaya/Telegram-sin-Telegram" target="_blank" rel="noopener noreferrer">Ver en GitHub ♡</a>
                 </article>
-
                 <article class="project-card">
                     <h3>¡Esta página!</h3>
-
-                    <p>
-                        Código fuente de este mismo portfolio.
-                    </p>
-
-                    <a
-                        href="https://github.com/MisakiDostoyevskaya/misakidostoy.github.io"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title="Ver el código de mi portfolio">
-                        Ver en GitHub ♡
-                    </a>
+                    <p>Código fuente de este mismo portfolio.</p>
+                    <a href="https://github.com/MisakiDostoyevskaya/misakidostoy.github.io" target="_blank" rel="noopener noreferrer">Ver en GitHub ♡</a>
                 </article>
-
             </div>
         </section>
-
-        <!-- WEB DESIGN -->
 
         <section id="web-design">
             <h2>Web Design</h2>
+            <p>Diseño y desarrollo de sitios web.</p>
 
-            <p>
-                Diseño y desarrollo de sitios web.
-            </p>
-
-            <!-- Próximamente: proyectos de diseño web -->
-
-        </section>
-
-        <!-- DISEÑO GRÁFICO -->
-
-        <section id="diseno-grafico">
-            <h2>Diseño gráfico</h2>
-
-            <p>
-                Diseño de logos, páginas y redes sociales.
-            </p>
-
-            <div class="art-gallery">
-
-                <article class="art-card">
-                    <img
-                        src="assets/images/desing-01.jpg"
-                        alt="Diseño gráfico número uno"
-                        loading="lazy">
-
-                    <h3>Design 01</h3>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Telegram sin Telegram</h3>
+                    <p>
+                        <a href="https://github.com/MisakiDostoyevskaya/Telegram-sin-Telegram" target="_blank" rel="noopener noreferrer">Ver en GitHub ♡</a>
+                    </p>
+                    <div class="carousel" id="web-project-01">
+                        <div class="carousel-slides">
+                            <div class="carousel-slide active"><img src="assets/images/telegram/cute.png" alt=Web Project 01, pantalla uno" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/telegram/dark.png" alt="Web Project 01, pantalla dos" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/telegram/gris.png" alt="Web Project 01, pantalla tres" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/telegram/Universo.png" alt="Web Project 01, pantalla cuatro" loading="lazy"></div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                            <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                            <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                        </div>
+                    </div>
                 </article>
 
-                <article class="art-card">
-                    <img
-                        src="assets/images/desing-02.jpg"
-                        alt="Diseño gráfico número dos"
-                        loading="lazy">
-
-                    <h3>Design 02</h3>
+                <article class="project-card">
+                    <h3>Web Project 02</h3>
+                    <p>Diseño de interfaz y distribución de contenido.</p>
+                    <div class="carousel" id="web-project-02">
+                        <div class="carousel-slides">
+                            <div class="carousel-slide active"><img src="assets/images/web-02-01.jpg" alt="Web Project 02, pantalla uno" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/web-02-02.jpg" alt="Web Project 02, pantalla dos" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/web-02-03.jpg" alt="Web Project 02, pantalla tres" loading="lazy"></div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                            <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                            <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                        </div>
+                    </div>
                 </article>
 
-                <article class="art-card">
-                    <img
-                        src="assets/images/desing-03.jpg"
-                        alt="Diseño gráfico número tres"
-                        loading="lazy">
-
-                    <h3>Design 03</h3>
+                <article class="project-card">
+                    <h3>Web Project 03</h3>
+                    <p>Diseño responsive y adaptación para dispositivos.</p>
+                    <div class="carousel" id="web-project-03">
+                        <div class="carousel-slides">
+                            <div class="carousel-slide active"><img src="assets/images/web-03-01.jpg" alt="Web Project 03, pantalla uno" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/web-03-02.jpg" alt="Web Project 03, pantalla dos" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/web-03-03.jpg" alt="Web Project 03, pantalla tres" loading="lazy"></div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                            <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                            <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                        </div>
+                    </div>
                 </article>
-
             </div>
         </section>
 
-        <!-- ART & COMMISSIONS -->
+        <section id="graphic-design">
+            <h2>Graphic Design</h2>
+            <p>Diseño de logos, piezas gráficas, identidad visual y redes sociales.</p>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Marca personal</h3>
+                    <p>Identidad visual y diseño de marca.</p>
+                    <div class="carousel" id="graphic-project-01">
+                        <div class="carousel-slides">
+                            <div class="carousel-slide active"><img src="assets/images/marcapersonal/1.png" alt="Graphic Project 01, diseño uno" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/marcapersonal/2.png" alt="Graphic Project 01, diseño dos" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/marcapersonal/3.png" alt="Graphic Project 01, diseño tres" loading="lazy"></div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                            <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                            <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Memes</h3>
+                    <p>Diseño de memes, imagenes graciosas para redes sociales</p>
+                    <div class="carousel" id="graphic-project-02">
+                        <div class="carousel-slides">
+                            <div class="carousel-slide active"><img src="assets/images/memes/meme1.png" alt="Graphic Project 02, diseño uno" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/memes/meme2.png" alt="Graphic Project 02, diseño dos" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/memes/meme3.png" alt="Graphic Project 02, diseño tres" loading="lazy"></div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                            <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                            <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Post para redes sociales</h3>
+                    <p>Diseño para redes sociales</p>
+                    <div class="carousel" id="graphic-project-03">
+                        <div class="carousel-slides">
+                            <div class="carousel-slide active"><img src="assets/images/postredessociales/1.png" alt="Graphic Project 03, diseño uno" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/postredessociales/2.png" alt="Graphic Project 03, diseño dos" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/postredessociales/3.png" alt="Graphic Project 03, diseño tres" loading="lazy"></div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                            <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                            <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h3>Presentaciones para clases</h3>
+                    <p>Diseños para presentaciones de clases</p>
+                    <div class="carousel" id="graphic-project-03">
+                        <div class="carousel-slides">
+                            <div class="carousel-slide active"><img src="assets/images/slidesclases/pseint/1.png" alt="Graphic Project 03, diseño uno" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/slidesclases/construct2/1.png" alt="Graphic Project 03, diseño dos" loading="lazy"></div>
+                            <div class="carousel-slide"><img src="assets/images/slidesclases/construct3/1.png" alt="Graphic Project 03, diseño tres" loading="lazy"></div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                            <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                            <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                        </div>
+                </article>
+            </div>
+        </section>
 
         <section id="art">
             <h2>Art &amp; Commissions</h2>
-
-            <p>
-                Ilustraciones, dibujos y comisiones.
-                Contactame para consultar disponibilidad.
-            </p>
-
-            <a
-                class="commission-button"
-                href="https://www.instagram.com/misakidostoyevskaya/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Consultar por Instagram">
-                Consultar por comisiones ♡
-            </a>
-
-            <div class="art-gallery">
-
-                <article class="art-card">
-                    <img
-                        src="assets/images/drawing-01.jpg"
-                        alt="Ilustración número uno"
-                        loading="lazy">
-
-                    <h3>Illustration 01</h3>
-                </article>
-
-                <article class="art-card">
-                    <img
-                        src="assets/images/drawing-02.jpg"
-                        alt="Ilustración número dos"
-                        loading="lazy">
-
-                    <h3>Illustration 02</h3>
-                </article>
-
-                <article class="art-card">
-                    <img
-                        src="assets/images/drawing-03.jpg"
-                        alt="Ilustración número tres"
-                        loading="lazy">
-
-                    <h3>Illustration 03</h3>
-                </article>
-
+            <div class="carousel" id="carousel-art">
+                <div class="carousel-slides">
+                    <div class="carousel-slide active"><img src="assets/images/dibujitos/1.jpg" alt="Ilustración número 1" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="assets/images/dibujitos/3.jpg" alt="Ilustración número 2" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="assets/images/dibujitos/4.jpg" alt="Ilustración número 3" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="assets/images/dibujitos/5.jpg" alt="Ilustración número 4" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="assets/images/dibujitos/6.jpg" alt="Ilustración número 5" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="assets/images/dibujitos/7.jpg" alt="Ilustración número 6" loading="lazy"></div>
+                    <div class="carousel-slide"><img src="assets/images/dibujitos/8.jpg" alt="Ilustración número 7" loading="lazy"></div>
+                </div>
+                <div class="carousel-controls">
+                    <button type="button" class="carousel-prev" aria-label="Imagen anterior">&#10094;</button>
+                    <span class="carousel-counter" aria-live="polite"> ☆☆☆ </span>
+                    <button type="button" class="carousel-next" aria-label="Imagen siguiente">&#10095;</button>
+                </div>
             </div>
         </section>
-
-        <!-- SOBRE MÍ -->
 
         <section id="sobre-mi">
             <h2>¡Sobre mí! ♡</h2>
-
-            <p>
-                ¡Sobre miii! >v<
-            </p>
+            <p>¡Sobre miii! &gt;v&lt;</p>
         </section>
-
-        <!-- REDES Y ENLACES -->
 
         <section id="links">
             <h2>Find me online</h2>
-
-            <p>
-                Podés encontrarme en estas plataformas
-                y ver mis proyectos.
-            </p>
-
+            <p>Podés encontrarme en estas plataformas y ver mis proyectos.</p>
             <div class="social-links">
-
-                <a
-                    href="https://github.com/MisakiDostoyevskaya"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Mi perfil de GitHub">
-                    GitHub ♡
-                </a>
-
-                <a
-                    href="https://www.linkedin.com/in/iara-coronel00/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Mi perfil de LinkedIn">
-                    LinkedIn ♡
-                </a>
-
-                <a
-                    href="https://www.youtube.com/@misakidostoyevskaya"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Mi canal de YouTube">
-                    YouTube ♡
-                </a>
-
-                <a
-                    href="https://www.instagram.com/misakidostoyevskaya/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Mi perfil de Instagram">
-                    Instagram ♡
-                </a>
-
+                <a href="https://github.com/MisakiDostoyevskaya" target="_blank" rel="noopener noreferrer">GitHub ♡</a>
+                <a href="https://www.linkedin.com/in/iara-coronel00/" target="_blank" rel="noopener noreferrer">LinkedIn ♡</a>
+                <a href="https://www.youtube.com/@misakidostoyevskaya" target="_blank" rel="noopener noreferrer">YouTube ♡</a>
+                <a href="https://www.instagram.com/misakidostoyevskaya/" target="_blank" rel="noopener noreferrer">Instagram ♡</a>
             </div>
         </section>
-
     </main>
 
     <footer>
-        <p>
-            ¡Gracias por tomarte el tiempo de ver mis trabajos! ♡
-        </p>
+        <p>¡Gracias por tomarte el tiempo de ver mis trabajos! ♡</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
