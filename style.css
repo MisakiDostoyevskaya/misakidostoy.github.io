@@ -452,4 +452,52 @@ a:focus-visible {
     max-width: 100%;
 }
 
-/*Github, carga pls*/
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 16px;
+}
+
+.carousel-controls button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #c084fc;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #211529, #39213f);
+    color: #e9c5ff;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 10px #c084fc22;
+}
+
+.carousel-controls button:hover {
+    background: linear-gradient(135deg, #c084fc, #f0abfc);
+    color: #17121b;
+    border-color: #f0abfc;
+    box-shadow: 0 0 16px #c084fc66;
+    transform: scale(1.1);
+}
+
+.carousel-controls button:active {
+    transform: scale(0.94);
+}
+
+.carousel-counter {
+    color: #d8b4fe;
+    font-size: 13px;
+    letter-spacing: 2px;
+    min-width: 48px;
+    text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-controls button {
+        transition: none;
+    }
+}
